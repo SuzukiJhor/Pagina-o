@@ -52,7 +52,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 14px;
+    font-size: 1.2rem;
 }
 
 #paginate .pagination div:not(.numbers) {
@@ -61,6 +61,10 @@ header {
     /* border: 1px solid white; */
 }
 
-#paginate .pagination div:hover {
+#paginate .pagination div.numbers div:hover {
+    color: var(--primary);
+}
+
+.active {
     color: var(--primary);
 }
